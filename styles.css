@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+#title, .box2 {
+	color: violet;
+}
+
+.bg-red {
+	background-color: rgb(209, 27, 27);
+}
+
+.text-white {
+	color: white;
+}
+
+div.box {
+	/* background-color: deeppink; */
+	width: 50%;
+	min-width: 400px;
+	max-width: 600px;
+	/* outline: 5px solid #0000ff99; */
+	border: 5px solid #0000ff99;
+	outline: 5px dashed #ff000099 ;
+}
+
+.box2 {
+	background-color: lime;
+	width: fit-content;
+	min-width: 300px;
+	max-width: 400px;
+	min-height: 20px;
+	/* max-height: 120px; */
+}
+
+p {
+	background-color: blue;
+}
